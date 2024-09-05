@@ -1,0 +1,20 @@
+h1{
+  font-size: 50px;
+}
+
+.black{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(144, 144, 144);
+}
+.BC{
+    font-size: 50px;
+}
+
+.wc{
+  font-size: 50px;
+}
+
+table{
+  border: 5px solid black;
+}

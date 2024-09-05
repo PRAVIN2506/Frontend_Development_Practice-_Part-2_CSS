@@ -1,0 +1,45 @@
+#s1{
+  height: 100px;
+  width: 100px;
+  border: 4px solid blue;
+  background-color: rgb(253, 64, 7);
+}
+
+#s1:hover{
+  background-color: aqua;
+}
+
+a:link{
+  color: olivedrab;
+}
+
+a:visited{
+  color: rgb(170, 255, 0);
+}
+
+a:active{
+  color: black;
+}
+section :first-child{
+  background-color: blueviolet;
+}
+
+section div:last-child{
+  background-color: brown;
+}
+
+section :nth-child(5){
+  background-color: blue;
+}
+
+section aside:first-of-type{
+  background-color: orange;
+}
+
+section aside:last-of-type{
+  background-color: greenyellow;
+}
+
+section p:nth-of-type(2){
+  background-color: yellow;
+}

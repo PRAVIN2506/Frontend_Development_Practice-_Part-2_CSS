@@ -1,0 +1,42 @@
+/*
+1.universal selector
+*/
+*{
+  text-align: center;
+}
+
+/*
+2.group by selector
+*/
+h1,para{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+3.tag selector
+*/
+body{
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/*
+4.id selector
+*/
+#s2{
+  border: 5px solid white;
+}
+
+
+/*
+5.class selector
+*/
+para{
+  font-size: 40px;
+}

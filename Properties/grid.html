@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .container{
+      display: grid;
+      /* grid-template-columns: 200px 300px 150px;
+      grid-template-rows: 200px 300px 150px; */
+      grid-template: 200px 300px 150px / 200px 300px 150px;
+    }
+
+    .grid-item{
+      padding: 24px;
+      text-align: center;
+      font-size: 24px;
+      color: white;
+    }
+
+    #item-1{
+      background-color: aqua;
+    }
+
+    #item-2{
+      background-color: rgb(16, 228, 228);
+    }
+
+    #item-3{
+      background-color: rgb(24, 199, 199);
+    }
+
+    #item-4{
+      background-color: rgb(38, 162, 162);
+    }
+
+    #item-5{
+      background-color: rgb(41, 144, 144);
+    }
+
+    #item-6{
+      background-color: rgb(39, 96, 96);
+    }
+
+    #item-7{
+      background-color: rgb(29, 61, 61);
+    }
+
+    #item-8{
+      background-color: rgb(15, 29, 29);
+    }
+
+    #item-9{
+      background-color: rgb(7, 10, 10);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-item" id="item-1">1content</div>
+    <div class="grid-item" id="item-2">2content</div>
+    <div class="grid-item" id="item-3">3content</div>
+    <div class="grid-item" id="item-4">4content</div>
+    <div class="grid-item" id="item-5">5content</div>
+    <div class="grid-item" id="item-6">6content</div>
+    <div class="grid-item" id="item-7">7content</div>
+    <div class="grid-item" id="item-8">8content</div>
+    <div class="grid-item" id="item-9">9content</div>
+  </div>
+</body>
+</html>

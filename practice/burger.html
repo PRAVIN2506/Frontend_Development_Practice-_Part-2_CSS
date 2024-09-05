@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    *{
+       margin: 0px;
+       padding: 0%;
+       box-sizing: border-box;
+    }
+    
+    section{
+      height: 600px ;
+      width: 600px ;
+      background-color: gold;
+      margin-left: 450px;
+      position: relative;
+      border: 10px groove orange;
+    }
+
+    img[alt=burger]{
+      height: 250px;
+      width: 350px;
+      position: absolute;
+      z-index: 3;
+      left: 130px;
+      top: 300px;
+    }
+
+    img[alt=cola]{
+      height: 420px;
+      width: 220px;
+      position: absolute;
+      left: 320px;
+      top: 70px;
+    }
+
+    img[alt=fries]{
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      top: 200px;
+      left: 20px;
+    }
+
+    #outerdiv{
+      height: 200px;
+      width: 200px;
+      background-color: red;
+      border-radius: 360px;
+      position: absolute;
+      bottom: 0px;
+      z-index: 4;
+    }
+
+    #innerdiv{
+      height: 160px;
+      width: 160px;
+      border: 4px dashed white;
+      border-radius: 360px;
+      position: absolute;
+      left: 16px;
+      bottom: 17px;
+    }
+
+    #innerdiv>:first-child{
+      color: white;
+      font-weight: 900;
+      font-size: 50px;
+      position: absolute;
+      left: 25px;
+      bottom: 10px;
+    }
+
+    #innerdiv>:nth-child(2){
+      color: white;
+      font-weight: 900;
+      font-size: 15px;
+      position: absolute;
+      letter-spacing: 20px;
+      left: 30px;
+      bottom: 30px;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <section>
+    <img src="https://www.pngplay.com/wp-content/uploads/2/Burger-Transparent-PNG.png" alt="burger">
+
+    <img src="https://officialpsds.com/imageview/rm/6x/rm6x6p_large.png?1521316540" alt="cola">
+
+    <img src="https://static.vecteezy.com/system/resources/previews/013/442/145/original/crispy-and-delicious-french-fries-free-png.png" alt="fries">
+
+    <div id="outerdiv">
+      <div id="innerdiv">
+        <p>$5.<small>49</small></p>
+        <p>ONLY</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
